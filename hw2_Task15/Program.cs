@@ -10,3 +10,4 @@ int a = Convert.ToInt32(Console.ReadLine());
 if (a == 6 || a == 7) Console.Write(a + " день недели - выходной");
 else if (a >= 1 && a <= 5 ) Console.Write(a + " день недели - НЕ выходной");
 else Console.Write("Введено число не в промежутке от 1 до 7. Повторите ввод корректно.");
+
